@@ -1,0 +1,14 @@
+# Ignore node_modules for both frontend and server
+/frontend/node_modules/
+/server/node_modules/
+
+# Ignore environment variable files
+/frontend/.env
+/server/.env
+
+# Optional: If you have a .env in root too
+.env
+
+# Optional: Ignore logs and system files
+*.log
+.DS_Store
