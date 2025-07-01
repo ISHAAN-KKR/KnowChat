@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# KnowChat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+KnowChat is a real-time chat application built using React.js for the frontend and Node.js, Express.js with Socket.IO for the backend server, allowing users to engage in instant messaging.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+The project is structured into two main folders:
 
-### `npm start`
+- **frontend:** Contains the React application for the user interface.
+- **server:** Contains the Node.js server implementing Socket.IO for real-time messaging.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Real-time Messaging:** Instantly send and receive messages.
+- **Multi-User Chat :** Multiple users can login and chat.
+- **Responsive Design:** Works seamlessly across devices.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:**
+  - React.js
+  - CSS3
 
-### `npm run build`
+- **Backend:**
+  - Node.js
+  - Express.js
+  - Socket.IO
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository:**
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/AtharvaKulkarniIT/KnowChat.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navigate to the frontend directory:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd KnowChat/frontend
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install frontend dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. **Navigate to the server directory:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd ../server
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. **Install server dependencies:**
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Running the Application
 
-### Analyzing the Bundle Size
+To start the frontend and backend servers:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Frontend
 
-### Making a Progressive Web App
+1. **Open a new terminal and navigate to the frontend directory:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   cd KnowChat/frontend
+   ```
 
-### Advanced Configuration
+2. **Start the frontend server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   npm start
+   ```
 
-### Deployment
+3. **Open your browser and navigate to:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```
+   http://localhost:3000
+   ```
 
-### `npm run build` fails to minify
+   Open at least two tabs to simulate a chat room environment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Backend
+
+1. **Open another terminal and navigate to the server directory:**
+
+   ```bash
+   cd KnowChat/server
+   ```
+
+2. **Start the backend server:**
+
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+- Enter your unique username in each tab and start chatting.
+- Messages are displayed in real-time with different styles for your messages and others'.
+
+
+## UI
+**Login**
+![Login](https://drive.google.com/uc?export=download&id=1Xd7gjzFwpSlG8mLaDZwegbdEejXtB1s3)
+<br/><br/>
+**Chat page**
+![Real-time chat](https://drive.google.com/uc?export=download&id=1EtxAVmU6Wn3b0EMuTosbbWfnFLSSZgVG)
+
+## Contributing
+
+Contributions are welcome! Fork the repository and submit a pull request for any features or fixes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
