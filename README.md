@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/AtharvaKulkarniIT/KnowChat.git
+   https://github.com/ISHAAN-KKR/KnowChat.git
    ```
 
 2. **Navigate to the frontend directory:**
@@ -102,21 +102,7 @@ To start the frontend and backend servers:
 
 ## Usage
 
-- Enter your unique username in each tab and start chatting.
+- Enter your unique username and recievers username in each tab and start chatting.
 - Messages are displayed in real-time with different styles for your messages and others'.
 
 
-## UI
-**Login**
-![Login](https://drive.google.com/uc?export=download&id=1Xd7gjzFwpSlG8mLaDZwegbdEejXtB1s3)
-<br/><br/>
-**Chat page**
-![Real-time chat](https://drive.google.com/uc?export=download&id=1EtxAVmU6Wn3b0EMuTosbbWfnFLSSZgVG)
-
-## Contributing
-
-Contributions are welcome! Fork the repository and submit a pull request for any features or fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
